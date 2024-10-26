@@ -67,9 +67,9 @@ h1 {
     padding: 40px 0;
     background-color: #f9f9f9;
 }
-.packedfood-img {
-    width: 1000px; /* Set all images to the same width */
-    height: 150px; /* Set all images to the same height */
+.image packedfood2 {
+    width: 300px; /* Set all images to the same width */
+    /*height: 150px; /* Set all images to the same height */
     object-fit: cover;
     justify-content: center;
     display: flex;
