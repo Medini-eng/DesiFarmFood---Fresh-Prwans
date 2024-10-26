@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #2f4f4f;
+}
+
+h1 {
+    font-size: 2em; /* Smaller header size */
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+.telugu {
+    font-family: 'Noto Sans Telugu', sans-serif;
+    font-size: 1.8em; /* Reduced Telugu font size */
+    color: #4CAF50;
+    margin-bottom: 0.5em;
+}
+
+.hero {
+    position: relative;
+    background-color: #fff8dc;
+    text-align: center;
+    padding: 20px 0; /* Reduced padding */
+}
+
+.floating-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows images to wrap and stay in position */
+    gap: 10px; /* Adds spacing between images */
+    padding: 20px;
+}
+
+.floating-image {
+    width: 150px; /* Set all images to the same width */
+    height: 150px; /* Set all images to the same height */
+    object-fit: cover; /* Ensures images maintain aspect ratio while fitting in the box */
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.floating-image:hover {
+    transform: scale(1.3); /* Enlarge the image on hover */
+}
+
+/* Remove animation to keep images in place */
+.prawn, .pickle, .dish, .veg1, .veg2, .veg3 {
+    position: static; /* Ensure all images stay in place */
+}
+
+.farmer-details {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+.packedfood-img {
+    width: 1000px; /* Set all images to the same width */
+    height: 150px; /* Set all images to the same height */
+    object-fit: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+.farmer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.farmer-photo {
+    width: 300px;
+    border-radius: 5%;
+    margin-right: 10px;
+}
+
+.farmer-text {
+    max-width: 500px;
+}
+
+.farmer-text h3 {
+    font-size: 1.6em; /* Reduced header size */
+    margin-bottom: 10px;
+    color: #2f4f4f;
+}
+
+.contact-info {
+    padding: 40px;
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
